@@ -28,6 +28,14 @@ a {
         text-decoration: none;
 }
 
+a:last-of-type {
+    margin-right: 10px;
+}
+
+a:hover {
+    color: gray;
+}
+
 .mobile_background {
     display: none;
 }
@@ -57,7 +65,6 @@ a {
     background-color: rgb(32, 8, 41, 0.8);
     padding: 20px;
     margin-bottom: 20px;
-    border: 2px solid white;
     border-radius: 1em;
 }
 
