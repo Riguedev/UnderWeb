@@ -12,15 +12,23 @@
     <title>Under Web</title>
 </head>
 <body>
+
+    <nav class="menu">
+        <a href="#history">Home</a>
+        <a href="#graphics">Graficos</a>
+        <a href="#audio">Banda Sonora</a>
+        <a href="#gameplay">Gameplay</a>
+        <a href=""></a>
+    </nav>
    
-    <header>
+    <div>
         <img src="./Media/mobile_background.jpg" alt="" class="mobile_background">
         <video src="./Media/video_banner.mp4" autoplay loop muted  class="video_banner"></video>
         <div>
             <h1 class="title">Under Web</h1>
             <p class="title_message">Descubre toda la información de Undertale</p>
         </div>
-    </header>
+    </div>
     
     <section class="introducction container">
         <h2 class="sub_title">¿Que es Undertale?</h2>
@@ -37,7 +45,7 @@
         </div>
     </section>
 
-    <section class="history container">
+    <section class="history container" id="history">
         <h2 class="sub_title">Historia</h2>
         <picture class="image_container">
             <img src="./Media/history_image.jpg" alt="imagen de la historia de Undertale" class="image" width="300px">
@@ -59,7 +67,7 @@
         </p>
     </section>
 
-    <section class="graphics container">
+    <section class="graphics container" id="graphics">
         <h2 class="sub_title">Gráficos</h2>
         <picture class="image_container">
             <img src="./Media/graphics_image.png" alt="" class="image" width="300px">
@@ -75,7 +83,7 @@
         </p>
     </section>
 
-    <section class="audio container">
+    <section class="audio container" id="audio">
         <h2 class="sub_title">Banda Sonora</h2>
         <picture class="image_container">
             <img src="./Media/audio_image.jpg" alt="" class="image" width="300px">
@@ -100,7 +108,7 @@
         </div>
     </section>
 
-    <section class="gameplay container">
+    <section class="gameplay container" id="gameplay">
         <h2 class="sub_title">Gameplay</h2>
         <picture class="image_container">
             <img src="./Media/gameplay_image.jpg" alt="" class="image" width="300px">
@@ -119,7 +127,7 @@
         </picture>
     </section>
     <footer>
-        <p>&copy; 2024 Under Web. Todos los derechos reservados.</p>
+        <p class="copy">&copy; 2024 Under Web. Desarrollado por Team Kentucky. Acesorado por Riguedev</p>
     </footer>
 
     <script src="./JavaScript/script.js"></script>
