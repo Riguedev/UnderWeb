@@ -62,6 +62,7 @@ a:hover {
 .container {
     margin: 0 auto;
     width: 60%;
+    max-width: 1200px;
     background-color: rgb(32, 8, 41, 0.8);
     padding: 20px;
     margin-bottom: 20px;
@@ -76,6 +77,11 @@ a:hover {
 .image_container {
     width: 400px;
     height: 300px;
+}
+
+.yt {
+    margin: 0 auto;
+    display: block;
 }
 
 .image {
@@ -128,10 +134,26 @@ a:hover {
     text-align: center;
 }
 
+.audio_control {
+    display: block;
+    margin: 0 auto;
+    position: static;
+    z-index: -1;
+}
+
 @media (max-width: 800px) {
 
-    .menu {
-        display: none;
+    a {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    a:first-of-type {
+        margin-left: auto;
+    }
+
+    a:last-of-type {
+        margin-right: auto;
     }
 
     header {
@@ -176,5 +198,9 @@ a:hover {
 
     .video_banner {
         display: none;
+    }
+
+    .yt {
+        width: 90%;
     }
 }
